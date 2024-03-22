@@ -9,6 +9,9 @@ from .pick_cube import PickCubeEnv
 from .pick_single_ycb import PickSingleYCBEnv
 from .pull_cube import PullCubeEnv
 from .push_cube import PushCubeEnv
+from .egg_to_bowl import EggToBowlEnv
+from .book_to_shelf import BookToShelfEnv
+from .pour_bowl_contents import PourBowlContentsEnv
 from .quadruped_run import QuadrupedRunEnv
 from .quadruped_stand import QuadrupedStandEnv
 from .stack_cube import StackCubeEnv
