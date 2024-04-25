@@ -32,7 +32,7 @@ getting_started/docker
 :maxdepth: 3
 :caption: Resources
 
-demos/index
+demo_scripts/index
 tutorials/index
 concepts/index
 datasets/index

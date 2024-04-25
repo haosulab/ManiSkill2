@@ -1,4 +1,4 @@
-# {material-regular}`notes` Demos
+# {material-regular}`notes` Demo Scripts
 
 There are a number of useful/quick scripts you can run to do a quick test/demonstration of various features of ManiSkill.
 
@@ -161,4 +161,18 @@ python -m mani_skill.examples.demo_vis_pcd -e "StackCube-v1"
 
 
 ```{figure}  images/pcd_vis.png
+```
+
+## Visualize Segmentation Data
+
+You can visualize any actor through the following script  (require's a display to work)
+```bash
+python -m mani_skill.examples.demo_vis_segmentation -e "PegInsertionSide-v1"
+```
+
+The script above will open a window highlighting each segmented part as a seperate color. To isolate one particular part, pick one of the ids printed by the script above and then you can run
+
+```bash
+
+python -m mani_skill.examples.demo_vis_segmentation -e "PegInsertionSide-v1" --id picked_id
 ```
